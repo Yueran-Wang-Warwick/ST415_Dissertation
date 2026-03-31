@@ -216,7 +216,23 @@ pip install -e .
 
 
 
-### 3. Launch the Local Web
+### 3. Download the fine-tuned model on Huggingface
+
+I’ve uploaded the fine-tuned DeBERTa model on Huggingface, please download thi via the link below:
+
+https://huggingface.co/Krasnoir/ST415_DeBERTa_for_HLC/tree/main
+
+<img src="huggingface_model.png" width="90%" />
+
+Then put it into the relative path: `\ST415_Appendix\Sentiment_Analysis_Local_Web`
+
+
+
+---
+
+
+
+### 4. Launch the Local Web
 
 > **Run the following codes in Ubuntu**
 
