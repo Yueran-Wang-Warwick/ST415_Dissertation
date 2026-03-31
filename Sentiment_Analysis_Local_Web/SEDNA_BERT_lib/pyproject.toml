@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "SEDNA_BERT"
+version = "0.1.0"
+description = "A modular BERT-based NLP library by Levizenith"
+authors = [
+    { name = "Leviz", email = "example@gmail.com" },
+]
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.10"
+
+dependencies = [
+    "tqdm==4.67.1",
+    "matplotlib==3.10.7",
+    "numpy==2.1.2",
+    "pandas==2.3.3",
+    "torch==2.8.0",
+    "datasets==4.4.1",
+    "transformers==4.57.1"
+]
+
+[tool.setuptools]
+# 只声明包目录，不使用 py-modules
+packages = ["SEDNA_BERT"]

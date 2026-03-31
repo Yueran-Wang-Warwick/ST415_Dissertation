@@ -1,0 +1,8 @@
+pyproject.toml
+SEDNA_BERT/__init__.py
+SEDNA_BERT/core_code.py
+SEDNA_BERT.egg-info/PKG-INFO
+SEDNA_BERT.egg-info/SOURCES.txt
+SEDNA_BERT.egg-info/dependency_links.txt
+SEDNA_BERT.egg-info/requires.txt
+SEDNA_BERT.egg-info/top_level.txt

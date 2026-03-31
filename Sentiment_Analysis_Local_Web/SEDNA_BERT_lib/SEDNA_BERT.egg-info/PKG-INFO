@@ -1,0 +1,15 @@
+Metadata-Version: 2.4
+Name: SEDNA_BERT
+Version: 0.1.0
+Summary: A modular BERT-based NLP library by Levizenith
+Author-email: Leviz <example@gmail.com>
+License: MIT
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: tqdm==4.67.1
+Requires-Dist: matplotlib==3.10.7
+Requires-Dist: numpy==2.1.2
+Requires-Dist: pandas==2.3.3
+Requires-Dist: torch==2.8.0
+Requires-Dist: datasets==4.4.1
+Requires-Dist: transformers==4.57.1
